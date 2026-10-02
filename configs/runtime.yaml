@@ -1,0 +1,8 @@
+calendar_timezone: Asia/Shanghai
+pending_order_valid_sessions: 3
+drawdown_action: warn_only
+paper_execution_after_drawdown_warning: continue
+fill_quantity_policy: fixed_at_signal
+fill_policy: all_or_none
+ledger_backend: sqlite
+same_session_reprocess: report_only

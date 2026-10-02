@@ -1,0 +1,11 @@
+asset_types: [CN_ETF, CN_A_MAIN]
+exchanges: [SSE, SZSE]
+exclude_boards: [CHINEXT, STAR, BSE]
+exclude_status: [ST, STAR_ST, DELISTING, SUSPENDED_LONG]
+min_listing_days: 120
+min_history_sessions: 120
+min_price: 2.0
+min_median_turnover_20d: 20000000
+custom_include: []
+custom_exclude: []
+

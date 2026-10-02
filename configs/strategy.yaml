@@ -1,0 +1,27 @@
+strategy_id: cn-volume-fundamental-v1
+version: 0.3.0
+rebalance_sessions: 10
+new_buy_top_n: 10
+hold_buffer_top_n: 15
+minimum_factor_history: 61
+price_volume_weights:
+  momentum_20: 0.25
+  momentum_60: 0.25
+  ma_structure: 0.10
+  volume_ratio_5_20: 0.10
+  price_volume_corr_20: 0.10
+  breakout_60: 0.10
+  inverse_realized_vol_20: 0.10
+component_weights:
+  CN_A_MAIN:
+    price_volume: 0.65
+    fundamental: 0.20
+    industry_cycle: 0.15
+  CN_ETF:
+    price_volume: 0.75
+    industry_cycle: 0.15
+    etf_quality: 0.10
+industry_min_members: 10
+industry_min_coverage: 0.80
+missing_optional_policy: renormalize_available
+no_optional_data_fallback: price_volume_only

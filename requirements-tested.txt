@@ -1,0 +1,8 @@
+# Tested direct dependencies, Python 3.12. Transitive packages are resolved by pip.
+akshare==1.18.94
+numpy==2.4.6
+pandas==3.0.5
+pyarrow==25.0.1
+PyYAML==6.0.3
+tzdata==2026.3
+open-xquant @ git+https://github.com/xingwudao/open-xquant.git@b96ebc031a2a60246f797a1995e33a798e643d0d

@@ -1,0 +1,8 @@
+max_single_stock_weight: 0.08
+max_single_etf_weight: 0.30
+max_industry_weight: 0.25
+min_cash_weight: 0.05
+max_order_pct_of_20d_turnover: 0.01
+max_portfolio_drawdown: 0.15
+lot_size_cn: 100
+

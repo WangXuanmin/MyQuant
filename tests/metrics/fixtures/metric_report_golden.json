@@ -1,0 +1,46 @@
+{
+  "config": {
+    "cash_annual_return": 0.0,
+    "cvar_confidence": 0.95,
+    "drawdown_threshold": -0.001,
+    "include_initial_turnover": false,
+    "minimum_acceptable_return": 0.0,
+    "periods_per_year": 252,
+    "risk_free_rate": 0.0
+  },
+  "metrics": {
+    "annualized_volatility": 1.3241429680700425,
+    "average_cash_ratio": 0.475,
+    "average_exposure": 0.525,
+    "cagr": 2998.0627541746007,
+    "calmar_ratio": 52466.09819805549,
+    "cash_drag": 0.0016648984126985678,
+    "downside_volatility": 0.9340639804762308,
+    "fee_ratio_initial_equity": 0.0,
+    "historical_cvar_95": -0.05714285714285716,
+    "historical_var_95": -0.04642857142857143,
+    "longest_underwater_days": 1,
+    "max_drawdown": -0.05714285714285716,
+    "max_drawdown_duration": 1,
+    "return_drag": 0.020000000000000018,
+    "sharpe_ratio": 7.911135580110699,
+    "sortino_ratio": 8.571206331584918,
+    "total_fees": 0.0,
+    "total_return": 0.10000000000000009,
+    "traded_notional_ratio": 0.0,
+    "traded_notional_ratio_annualized": 0.0,
+    "weight_turnover_annualized": 25.200000000000003,
+    "weight_turnover_total": 0.30000000000000004,
+    "worst_day": -0.05714285714285716,
+    "worst_day_label": "2024-01-04",
+    "worst_day_partial_period": false,
+    "worst_month": 0.10000000000000009,
+    "worst_month_label": "2024-01",
+    "worst_month_partial_period": true,
+    "worst_year": 0.10000000000000009,
+    "worst_year_label": "2024",
+    "worst_year_partial_period": true
+  },
+  "warnings": []
+}
+

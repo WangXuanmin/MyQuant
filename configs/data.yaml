@@ -1,0 +1,14 @@
+market_source: sina
+price_adjustment: raw
+history_start: "2025-01-01"
+stale_after_calendar_days: 7
+cache_dir: data/market
+security_master_dir: data/security_master
+security_status_dir: data/security_status
+industry_cache_dir: data/industry
+fundamental_cache_dir: data/fundamentals
+tdxquant_endpoint: http://127.0.0.1:17709/
+tdxquant_tqcenter_path: E:/tdx/PYPlugins/user/tqcenter.py
+fundamental_provider: tdxquant
+industry_provider: sina
+allow_network: true

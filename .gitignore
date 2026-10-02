@@ -1,0 +1,35 @@
+# Runtime data and private account history
+/data/
+/runs/
+/backups/
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+*credentials*
+*secrets*
+*.key
+*.pem
+*.pfx
+*.p12
+*.sqlite*
+*.db
+config.local.*
+# Python / browser dependencies and generated output
+.venv/
+venv/
+.uv-python/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.coverage
+htmlcov/
+build/
+dist/
+node_modules/
+playwright-report/
+test-results/
+*.log
+.DS_Store
+Thumbs.db

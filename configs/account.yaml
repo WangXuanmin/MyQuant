@@ -1,0 +1,18 @@
+currency: CNY
+initial_cash: 500000.0
+initial_positions: {}
+mode: dry_run
+external_execution_enabled: false
+fee_model: cn_net_commission_v1
+fee_schedule_as_of: "2026-09-28"
+commission_rate: 0.000085
+commission_minimum: 0.0
+cn_a_regulatory_fee_rate: 0.00002
+cn_a_exchange_handling_fee_rate: 0.0000341
+cn_a_transfer_fee_rate: 0.00001
+cn_a_sell_stamp_duty_rate: 0.0005
+etf_exchange_handling_fee_rate: 0.00004
+slippage_bps:
+  CN_ETF: 5.0
+  CN_A_MAIN: 10.0
+  UNKNOWN: 10.0
